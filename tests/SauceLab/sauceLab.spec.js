@@ -1,5 +1,5 @@
 const { test, expect } = require("@playwright/test");
-const login = require("./Helper.json");
+const {credentials} = require("./Helper.json");
 
 const baseURL = "https://www.saucedemo.com/";
 
@@ -9,8 +9,8 @@ test.describe("SWAG LAB", async () => {
     // Verify the title as Swag Labs
     expect(page).toHaveTitle("Swag Labs");
     // Login with standard_user & secret_sauce
-    await page.fill("#user-name", login.username);
-    await page.fill("#password", login.password);
+    await page.fill("#user-name", credentials.username);
+    await page.fill("#password", credentials.password);
     const button = page.locator("#login-button");
     await expect(button).toBeVisible();
     // Verify the login button text is capitalized
@@ -52,7 +52,7 @@ test.describe("SWAG LAB", async () => {
     // Change the price filter from low to high
     const productOptions = await page.locator(".product_sort_container");
     await productOptions.selectOption("lohi");
-
     // Verify the price sorted properly
+    const prices = await page.locator(".inventory_item_price");
   });
 });
