@@ -15,6 +15,7 @@ test.describe("Uploading files", async () => {
   test.only("uploading files using chooser listerner", async ({ page }) => {
     await page.goto("https://the-internet.herokuapp.com/upload");
     await page.on("filechooser", async (filechooser) => {
+      //Filechooser is multiple
       await filechooser.setFiles([filePath0, filePath1]);
     });
     await page.click(".example + div#drag-drop-upload", { force: true });
