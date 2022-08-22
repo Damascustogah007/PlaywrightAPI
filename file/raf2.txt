@@ -1,0 +1,137 @@
+TestCase Sample for E-Commerce site
+
+General Test Cases for Ecommerce Website
+
+Check that users can navigate through all the products across different categories.
+Check that all the links are redirecting to correct product/category pages, and none of the links is broken.
+Check that the company logo is visible.
+Check that all the text – product, category name, price, and product description are visible.
+Check that all the images are clear and visible.
+Check that category pages have a relevant product explicitly listed for the category.
+Check that the correct count of total products is listed on the category pages.
+
+Login Page Test Cases For Ecommerce Website
+
+Check for proper validations on Login Page.
+Check for an error message if Email, password, or any required field is left blank.
+Check the validations on Email and password.
+When you log in, check that you stay logged in as you browse products.
+When the user doesn’t interact with the site for some time, will the session expire after some time? Make sure the user is logged out after the session times out.
+When you are logged in, log out and make sure you are logged out and that you cannot access any of the accounts pages.
+
+Home Page Functionality Test Cases
+
+Check if the home page is displayed after a successful login.
+Check if the user name is displayed on the homepage.
+Check if the products are displayed on the home page.
+Check if the search functionality is available on the home page.
+Check if products on the home page are clickable.
+Check if the products are displayed as categorized on the home page.
+Check if the user profile is available on the home page or not.
+
+Registration Page Ecommerce Website  Test Cases
+
+Check that all the required fields are present on the registration page.
+Check that the required/mandatory fields are marked with * against the field.
+Check that for better user interface dropdowns, radio buttons and checkboxes, etc. fields are displayed wherever possible.
+Check if the page has both submit and in some cases [cancel/reset] buttons at the end.
+Check that on clicking the submit button after entering all the required fields, account is created succesfully.
+Check that clicking cancel/reset button after entering all the required fields, cancels the submit request, and reset all the fields.
+Check that not filling the mandatory fields and clicking the submit button will lead to the validation error.
+Check the limit of the text boxes.
+Check if the password field makes suggestions if the password strength is not strong.
+Check validation of email fields (only valid email Ids should be allowed).
+Check validation on numeric fields by entering alphabets and special characters.
+Check that leading and trailing spaces are trimmed.
+Check that entering blank spaces on mandatory fields lead to validation error.
+
+Address Book Test Cases Of Ecommerce Website
+
+Check Add New Address functionality.
+Check Change Address functionality.
+Check validations on Address Book Page.
+
+Search Page Test Cases For Ecommerce Website
+
+Check that the products displayed are related to what was searched for.
+Check that the products should display an image, name, price.
+Check the more relevant product for the search term is displayed on the top for a particular search term.
+Check that count of products is correctly displayed on the search result page for a particular search term.
+Check that filtering functionality correctly filters products based on the filter applied.
+Check that filtering works correctly on the search result page.
+Check that the correct count of total products is displayed after a filter is applied.
+Check that all the sort options work correctly – correctly sort the products based on the sort option chosen.
+Check that sorting works correctly on the search result page.
+Check that sorting works correctly on the pages containing the filtered result, after applying filters.
+Check that product count remains intact irrespective of the sorting option applied.
+
+Wish list Page Test Cases
+
+Verify that the added product is present on the wishlist page.
+Check that Update of the wishlist is working correctly.
+Check the Share wishlist functionality (if there is).
+Check that user can add products to the cart from the wishlist page.
+
+Product Details Page Test Cases
+
+Verify Add to Cart should work correctly on the product tile.
+Verify Actual product details with expected product details.
+Check that a complete description of the product, including images, is appropriately shown.
+Check that option to verify the availability of the product is present.
+Check if users can rate, review the product.
+
+Add to Cart Test Cases
+
+Check the add to cart button is clickable.
+Check whether the user is allowed to add products to the cart.
+Check after Adding one item to the cart and verify.
+Check on adding the new products into the cart and whether the count is increasing.
+Check if the same item is added multiple times to the cart.
+Check success message is displayed when a product is added to the cart successfully.
+Check that the added item is displayed in the cart.
+Check that the user is able to add products to his wishlist by clicking on the wishlist link.
+Check after removing all items in the cart.
+Check that the count is changing on adding or removing items from the cart.
+Check that the user is allowed to delete the items in the cart.
+Check that the success message is displayed when the item is deleted from the cart.
+Check the sequence order of the items is as per the items are added to the cart.
+Check if the user is allowed to check out multiple items from the cart.
+Check Adding multiple items of different types and verify.
+Check the amount of all added items is displaying correctly.
+Check whether the amount is changing or not, your user added or remove items from the cart.
+Check user is allowed to change the quantity of the added items in the cart.
+Check the cart total when the inclusive tax is enabled from the admin end.
+Check that the product details page is open when the user clicks on the product description on the checkout page.
+Check that the UI of the add to cart is as per the requirement.
+
+Orders Page Test Case
+
+Check if order history is displayed on the My Order page.
+Check if the user is able to change the order.
+Check if the user is able to cancel the order.
+Check if the user is able to track his order.
+Check if the user is able to return his order.
+
+Checkout Page Test Case
+
+Check User can access the Checkout-Page only after adding the product to the cart
+Check in the checkout page user can see all the details of the product like Name, Quantity, Amount, etc.
+Check the checkout page after adding one item to the cart and close the browser. after reopening the same page the previously added item is displayed in the cart.
+Check that the mandatory fields of the checkout address page are filled, the fields can be Name, Street Address, City, State, Country, Postal code.
+Check error message is displaying when the user fills invalid input details in the mandatory fields.
+Check if the back to cart button is available so that the user can modify the cart content as per his/her requirement.
+Check error message is displayed or not when the user leaves the mandatory fields blank.
+Check order price when gift and wrapping charges are applicable.
+Check the shipping price.
+Check the shipping price tax.
+Check the payment options.
+Check that the price of the cart is not discounted when we apply an invalid coupon.
+Check on the click of the cancel button whether the data are deleted.
+Check the mandatory fields of the payment page, fields such as Name on Card, Card Number, Expiration date, CVV.
+Check error message is displayed when the invalid details are filled in the mandatory fields of the payment page.
+Check error message is displaying when one mandatory field of the payment page is not filled.
+Check that the user is redirected to the order page on successful order processing.
+Check whether the order number is displaying or not on the thank you page of my order page.
+
+
+
