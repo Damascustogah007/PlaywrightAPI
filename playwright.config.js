@@ -25,7 +25,8 @@ const config = {
   reporter: "html",
   use: {
     actionTimeout: 0,
-    baseURL: "https://dev110556.service-now.com/api/now/table/incident",
+    baseURL: "https://jsonplaceholder.typicode.com",
+    headless: false,
     extraHTTPHeaders: {
       // Accept: "application/vnd.github.v3+json",
       // use base64encode.org to encode password
