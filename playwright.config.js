@@ -7,6 +7,7 @@ const { devices } = require("@playwright/test");
  * https://github.com/motdotla/dotenv
  */
 // require('dotenv').config();
+// https://testautomationu.applitools.com/js-playwright-tutorial/chapter3.3.html
 
 /**
  * @see https://playwright.dev/docs/test-configuration
@@ -27,12 +28,16 @@ const config = {
     actionTimeout: 0,
     baseURL: "https://jsonplaceholder.typicode.com",
     headless: false,
-    extraHTTPHeaders: {
-      // Accept: "application/vnd.github.v3+json",
-      // use base64encode.org to encode password
-      Authorization: "Basic 'Enter authentication code' ",
-    },
+    // extraHTTPHeaders: {
+    //   // Accept: "application/vnd.github.v3+json",
+    //   // use base64encode.org to encode password
+    //   Authorization: "Basic 'Enter authentication code' ",
+    // },
     trace: "on-first-retry",
+    // for videos
+    // https://playwright.dev/docs/videos
+    
+    
   },
 
   /* Configure projects for major browsers */

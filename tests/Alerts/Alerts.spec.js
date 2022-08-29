@@ -12,6 +12,6 @@ test.describe("Handling dialogs", async () => {
       dialog.accept("Charles Togah");
     });
     await element?.click();
-    await page.pause()
+    await page.pause();
   });
 });

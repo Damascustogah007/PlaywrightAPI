@@ -21,11 +21,10 @@ test.describe("Handling Select", async () => {
 
   test("Count of the select", async ({ page }) => {
     const lang = await page.$$("id=lang option");
-    console.log(await lang.length)
+    console.log(await lang.length);
     // for(let i = 0; i < lang.length; i++){
     //   console.log(await lang[i].innerText())
     // }
-    // await expect(lang).toHaveLength(5);
   });
 
   // test('get selected text', async({ page }) => {

@@ -1,5 +1,5 @@
 const { test, expect } = require("@playwright/test");
-const {credentials} = require("./Helper.json");
+const { credentials } = require("./Helper.json");
 
 const baseURL = "https://www.saucedemo.com/";
 
@@ -15,6 +15,7 @@ test.describe("SWAG LAB", async () => {
     await expect(button).toBeVisible();
     // Verify the login button text is capitalized
     await expect(button).toHaveValue("Login");
+    // await page.click("button:text("LOGIN")")
     await page.click("#login-button");
     await expect(page.url()).toContain("/inventory.html");
     //   Verify default filter dropdown is A-Z
