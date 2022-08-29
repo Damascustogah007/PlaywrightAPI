@@ -36,6 +36,9 @@ const config = {
     trace: "on-first-retry",
     // for videos
     // https://playwright.dev/docs/videos
+    launchOptions: {
+      slowMo: 500,
+    },
     
     
   },

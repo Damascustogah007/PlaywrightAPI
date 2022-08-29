@@ -35,6 +35,6 @@ test.describe("Page handling", () => {
       dialog.accept();
     });
     await allWindows[1].click("id=accept");
-    await page.pause()
+    await page.pause();
   });
 });
