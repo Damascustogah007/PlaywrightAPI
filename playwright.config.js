@@ -28,6 +28,7 @@ const config = {
     actionTimeout: 0,
     baseURL: "https://jsonplaceholder.typicode.com",
     headless: false,
+    channel : "msedge",
     // extraHTTPHeaders: {
     //   // Accept: "application/vnd.github.v3+json",
     //   // use base64encode.org to encode password
