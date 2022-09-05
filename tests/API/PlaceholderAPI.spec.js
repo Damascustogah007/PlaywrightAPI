@@ -31,5 +31,3 @@ test.describe("API for placeholder site", () => {
     }
   });
 });
-
-

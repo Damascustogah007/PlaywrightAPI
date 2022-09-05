@@ -13,10 +13,10 @@ test.describe("Handling Inputs", async () => {
     await page.keyboard.press("End");
     await join?.type(" Human");
   });
-//   test("What is inside a text-box", async ({ page }) => {
-//     const text = await page.getAttribute("#getMe", "value");
-//     console.log(text);
-//   });
+  //   test("What is inside a text-box", async ({ page }) => {
+  //     const text = await page.getAttribute("#getMe", "value");
+  //     console.log(text);
+  //   });
   test("Clear the text  ", async ({ page }) => {
     await page.$("#clearMe", "");
   });
